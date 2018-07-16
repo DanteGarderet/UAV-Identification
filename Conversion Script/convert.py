@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
     This is a modified version of the original script made by Guanghan Ning 
-    This script is to convert the txt annotation files to appropriate format needed by YOLO. 
-    I do not take credit for any of the original work
+    This script is designed to convert txt annotation files to appropriate format needed by YOLO. 
+    I do not take credit for any of the original work, only the modifications.
    @author: Guanghan Ning
     Email: gnxr9@mail.missouri.edu
    
@@ -31,11 +31,11 @@ def convert(size, box):
 
 
 """-------------------------------------------------------------------"""
-cls = "120"
+cls = "001"
 
 """ Configure Paths"""
-mypath = "Labels/120/"
-outpath = "Images/120/"
+mypath = "Labels/001/"
+outpath = "Images/001/"
 
 if cls not in classes:
     print "Class not in classes boii, u done fucked up"
