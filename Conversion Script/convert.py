@@ -38,7 +38,7 @@ mypath = "Labels/001/"
 outpath = "Images/001/"
 
 if cls not in classes:
-    print "Class not in classes boii, u done fucked up"
+    print "Class not found in classes"
     exit(0)
 cls_id = classes.index(cls)
 
@@ -49,7 +49,7 @@ list_file = open('%s/%s_list.txt'%(wd, cls), 'w')
 DS_file=str('%s/%s/.DS_Store'%(wd,mypath))
 if os.path.isfile(DS_file):
     os.remove(DS_file)
-    print "got the lil bastard"
+    print "DS_Store file removed"
 else:
     print "No DS_Store to remove at", DS_file
 
@@ -57,7 +57,7 @@ print "wd:", wd, "   cls_id:", cls_id, "DS file path:", DS_file
 
 if os.path.isfile(DS_file):
     os.remove(DS_file)
-    print "its still in there somewhere"
+    print "Its still in there"
 
 
 
