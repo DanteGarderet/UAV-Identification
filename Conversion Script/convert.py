@@ -1,11 +1,13 @@
 # -*- coding: utf-8 -*-
 """
-    Created on Wed Dec  9 14:55:43 2015
-    
-    This script is to convert the txt annotation files to appropriate format needed by YOLO
-    
-    @author: Guanghan Ning
+    This is a modified version of the original script made by Guanghan Ning 
+    This script is to convert the txt annotation files to appropriate format needed by YOLO. 
+    I do not take credit for any of the original work
+   @author: Guanghan Ning
     Email: gnxr9@mail.missouri.edu
+   
+   This script contains a process to delete .DS_Store files for mac and is already configured for the drone datasets. 
+    
     """
 
 import os
