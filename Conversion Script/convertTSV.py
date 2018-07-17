@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
     This is a modified version of the convert.py, which itself is a modified version of the original script made by Guanghan Ning 
-    This script is to convert TSV annotation files (which contain tabs instead of spaces for each coordinate)to the appropriate 
+    This script is to convert TSV annotation files (which contain tabs instead of spaces between each coordinate) to the appropriate 
     format needed by YOLO,. 
     I do not take credit for any of the original work, only the modifications.
    @author: Guanghan Ning
