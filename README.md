@@ -5,3 +5,4 @@ Contains datasets of eight classes of drones (Civilian drones– DJI Phantom, DJ
 Also contains scripts to convert annotation files into YOLO format.
 
 The datasets contain about 400 images per class, so they are a good starting point for you to add your own data too. If you want to have extremley accurate drone detection, these datasets cannot do it by themselves
+
